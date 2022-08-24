@@ -16,9 +16,13 @@ public class LinkedListJava {
         linkl.add(20);
         linkl.add(30);
         linkl.add(30);
-        System.out.println(linkl.peek());
-        System.out.println(linkl.poll());
-        System.out.println(linkl.remove());
+        
+        linkl.addFirst(15);
+        linkl.addLast(1500);
+//        System.out.println(linkl.peek());
+//        System.out.println(linkl.poll());
+//        System.out.println(linkl.remove());
+        
 
         
         for (int i = 0; i < linkl.size(); i++) {
