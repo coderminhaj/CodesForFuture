@@ -23,7 +23,7 @@ public class comparatorInJava {
     public static void main(String[] args) {
         int a[] = {2,64,6,2,4,8,6,4663,5};
 //        Arrays.sort(a);
-       Collections.sort(a, new my());
+//       Collections.sort(a, new my());
         
         
         
